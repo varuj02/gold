@@ -1,4 +1,4 @@
-var socket = io();
+var socket = io("https://goldgame.herokuapp.com");
 var config = {};
 
 var playerName = ""//= prompt("Choose a username");
